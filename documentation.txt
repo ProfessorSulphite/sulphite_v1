@@ -1,0 +1,66 @@
+📘 Project Documentation: Adaptive Math Tutor (Phase 1)
+Target: Grades 6–8 | Languages: English + Urdu | Format: Chatbot + Teacher Dashboard
+
+1. 🏗️ System Architecture
++---------------------+
+|    Frontend Layer   |
+|  - Student Chat UI  |
+|  - Teacher Dashboard|
++----------+----------+
+           |
+           v
++---------------------+
+|   Application Layer |
+|  - FastAPI Backend  |
+|  - Session Manager  |
+|  - Adaptivity Engine|
+|  - Translation Layer|
++----------+----------+
+           |
+           v
++---------------------+
+|     AI & Data Layer |
+|  - Gemini API       |
+|  - Translation API  |
+|  - Student Memory   |
+|    (SQLite/JSON)    |
++---------------------+
+
+
+adaptive-math-tutor/
+│
+├── backend/                     # FastAPI Application
+│   ├── main.py                  # Entry point
+│   ├── api/
+│   │   ├── chat.py              # Chat endpoint
+│   │   └── dashboard.py         # Teacher analytics
+│   ├── core/
+│   │   ├── adaptivity.py        # Queue logic, scoring, next-step selection
+│   │   ├── classifier.py        # Gemini-based topic/subtopic classifier
+│   │   └── translator.py        # Urdu translation wrapper
+│   ├── models/
+│   │   ├── student.py           # StudentProfile & TopicProfile classes
+│   │   └── curriculum.py        # 5 topics × 10 subtopics (JSON-based)
+│   ├── db/
+│   │   └── storage.py           # SQLite/JSON persistence
+│   └── config.py                # API keys, constants
+│
+├── frontend/
+│   ├── student-chat/            # React chat UI
+│   │   ├── components/
+│   │   └── App.js
+│   └── teacher-dashboard/       # Streamlit dashboard
+│       └── dashboard.py
+│
+├── data/
+│   ├── curriculum.json          # { "Number System": ["Integers", "Fractions", ...], ... }
+│   └── glossary_urdu.csv        # Math term overrides (e.g., "fraction,کسر")
+│
+├── tests/
+│   ├── test_adaptivity.py
+│   └── test_translation.py
+│
+├── requirements.txt
+├── README.md
+└── .env                         # GEMINI_API_KEY, GOOGLE_TRANSLATE_KEY (optional)
+

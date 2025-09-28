@@ -1,0 +1,26 @@
+2025-09-28 19:33:21 | sulphite.main | INFO     | main.py:__init__:81 | Starting Sulphite Learning Assistant v2.0
+2025-09-28 19:33:21 | sulphite.database | INFO     | database.py:__init__:67 | Database connection established: sulphite.db
+2025-09-28 19:33:21 | sulphite.database | INFO     | logging_config.py:log_database_operation:193 | DB_OPERATION: database.py:110 | Operation: CREATE_TABLES | Details: {'tables': ['sessions', 'memory']}
+2025-09-28 19:33:21 | sulphite.classification | INFO     | classification.py:__init__:89 | Classifier initialized successfully with Gemini 1.5 Flash model
+2025-09-28 19:33:21 | sulphite.chat_service | INFO     | services.py:__init__:91 | Chat service initialized successfully with Gemini 2.0 Flash model
+2025-09-28 19:33:21 | sulphite.database | INFO     | logging_config.py:log_database_operation:193 | DB_OPERATION: database.py:180 | Operation: GET_SESSION | Details: {'session_name': 'default', 'found': True}
+2025-09-28 19:33:21 | sulphite.chat_service | INFO     | services.py:start_new_session:121 | Retrieved existing session: default (ID: 1)
+2025-09-28 19:33:21 | sulphite.chat_service | INFO     | logging_config.py:log_query_processing:160 | QUERY_PROCESSING: services.py:125 | Stage: SESSION_STARTED | Query: 'Session: default' | Details: {'session_id': 1, 'session_name': 'default'}
+2025-09-28 19:33:21 | sulphite.main | INFO     | main.py:__init__:91 | Sulphite application initialized successfully
+2025-09-28 19:33:21 | sulphite.main | INFO     | logging_config.py:log_query_processing:160 | QUERY_PROCESSING: main.py:93 | Stage: INITIALIZATION_COMPLETE | Query: 'Application Startup' | Details: {'database': 'sulphite.db', 'default_session_started': True}
+2025-09-28 19:33:21 | sulphite.main | INFO     | main.py:run:447 | Application started, entering main loop
+2025-09-28 19:33:21 | sulphite.main | INFO     | logging_config.py:log_query_processing:160 | QUERY_PROCESSING: main.py:449 | Stage: MAIN_LOOP_STARTED | Query: 'Application Start'
+2025-09-28 19:33:49 | sulphite.main | INFO     | main.py:print_help:138 | Help information displayed to user
+2025-09-28 19:33:49 | sulphite.main | INFO     | logging_config.py:log_query_processing:160 | QUERY_PROCESSING: main.py:140 | Stage: HELP_DISPLAYED | Query: 'Help Request'
+2025-09-28 19:34:19 | sulphite.main | INFO     | logging_config.py:log_query_processing:160 | QUERY_PROCESSING: main.py:386 | Stage: AI_INTERACTION_START | Query: 'What is Arithmetics?'
+2025-09-28 19:34:19 | sulphite.chat_service | INFO     | logging_config.py:log_query_processing:160 | QUERY_PROCESSING: services.py:172 | Stage: QUERY_RECEIVED | Query: 'What is Arithmetics?' | Details: {'session_id': 1}
+2025-09-28 19:34:19 | sulphite.chat_service | INFO     | logging_config.py:log_query_processing:160 | QUERY_PROCESSING: services.py:227 | Stage: CLASSIFICATION_START | Query: 'What is Arithmetics?'
+2025-09-28 19:34:19 | sulphite.classification | INFO     | logging_config.py:log_query_processing:160 | QUERY_PROCESSING: classification.py:132 | Stage: CLASSIFICATION_START | Query: 'What is Arithmetics?' | Details: {'model': 'gemini-1.5-flash'}
+2025-09-28 19:34:20 | langchain_google_genai.chat_models | WARNING  | before_sleep.py:log_it:65 | Retrying langchain_google_genai.chat_models._chat_with_retry.<locals>._chat_with_retry in 2.0 seconds as it raised NotFound: 404 models/gemini-1.5-flash is not found for API version v1beta, or is not supported for generateContent. Call ListModels to see the list of available models and their supported methods..
+2025-09-28 19:34:23 | langchain_google_genai.chat_models | WARNING  | before_sleep.py:log_it:65 | Retrying langchain_google_genai.chat_models._chat_with_retry.<locals>._chat_with_retry in 4.0 seconds as it raised NotFound: 404 models/gemini-1.5-flash is not found for API version v1beta, or is not supported for generateContent. Call ListModels to see the list of available models and their supported methods..
+2025-09-28 19:34:27 | langchain_google_genai.chat_models | WARNING  | before_sleep.py:log_it:65 | Retrying langchain_google_genai.chat_models._chat_with_retry.<locals>._chat_with_retry in 8.0 seconds as it raised NotFound: 404 models/gemini-1.5-flash is not found for API version v1beta, or is not supported for generateContent. Call ListModels to see the list of available models and their supported methods..
+2025-09-28 19:34:28 | sulphite.main | INFO     | main.py:run:470 | Application interrupted by user (Ctrl+C)
+2025-09-28 19:34:28 | sulphite.main | INFO     | main.py:run:486 | Application shutting down
+2025-09-28 19:34:28 | sulphite.main | INFO     | logging_config.py:log_query_processing:160 | QUERY_PROCESSING: main.py:488 | Stage: MAIN_LOOP_ENDED | Query: 'Application Shutdown'
+2025-09-28 19:34:28 | sulphite.startup | INFO     | main.py:main:518 | Application terminated normally
+2025-09-28 19:34:28 | sulphite.database | INFO     | database.py:__del__:363 | Database connection closed
