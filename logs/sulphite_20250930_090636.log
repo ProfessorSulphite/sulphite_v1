@@ -1,0 +1,38 @@
+2025-09-30 09:06:42 | faiss.loader | DEBUG    | loader.py:<module>:95 | Environment variable FAISS_OPT_LEVEL is not set, so let's pick the instruction set according to the current CPU
+2025-09-30 09:06:42 | faiss.loader | INFO     | loader.py:<module>:119 | Loading faiss with AVX512 support.
+2025-09-30 09:06:42 | faiss.loader | INFO     | loader.py:<module>:121 | Successfully loaded faiss with AVX512 support.
+2025-09-30 09:06:44 | numexpr.utils | INFO     | utils.py:_init_num_threads:164 | NumExpr defaulting to 8 threads.
+2025-09-30 09:06:47 | sentence_transformers.SentenceTransformer | INFO     | SentenceTransformer.py:__init__:219 | Use pytorch device_name: cpu
+2025-09-30 09:06:47 | sentence_transformers.SentenceTransformer | INFO     | SentenceTransformer.py:__init__:227 | Load pretrained SentenceTransformer: all-MiniLM-L6-v2
+2025-09-30 09:06:47 | urllib3.connectionpool | DEBUG    | connectionpool.py:_new_conn:1049 | Starting new HTTPS connection (1): huggingface.co:443
+2025-09-30 09:06:49 | urllib3.connectionpool | DEBUG    | connectionpool.py:_make_request:544 | https://huggingface.co:443 "HEAD /sentence-transformers/all-MiniLM-L6-v2/resolve/main/modules.json HTTP/1.1" 307 0
+2025-09-30 09:06:49 | urllib3.connectionpool | DEBUG    | connectionpool.py:_make_request:544 | https://huggingface.co:443 "HEAD /api/resolve-cache/models/sentence-transformers/all-MiniLM-L6-v2/c9745ed1d9f207416be6d2e6f8de32d1f16199bf/modules.json HTTP/1.1" 200 0
+2025-09-30 09:06:50 | urllib3.connectionpool | DEBUG    | connectionpool.py:_make_request:544 | https://huggingface.co:443 "HEAD /sentence-transformers/all-MiniLM-L6-v2/resolve/main/config_sentence_transformers.json HTTP/1.1" 307 0
+2025-09-30 09:06:51 | urllib3.connectionpool | DEBUG    | connectionpool.py:_make_request:544 | https://huggingface.co:443 "HEAD /api/resolve-cache/models/sentence-transformers/all-MiniLM-L6-v2/c9745ed1d9f207416be6d2e6f8de32d1f16199bf/config_sentence_transformers.json HTTP/1.1" 200 0
+2025-09-30 09:06:51 | urllib3.connectionpool | DEBUG    | connectionpool.py:_make_request:544 | https://huggingface.co:443 "HEAD /sentence-transformers/all-MiniLM-L6-v2/resolve/main/config_sentence_transformers.json HTTP/1.1" 307 0
+2025-09-30 09:06:52 | urllib3.connectionpool | DEBUG    | connectionpool.py:_make_request:544 | https://huggingface.co:443 "HEAD /api/resolve-cache/models/sentence-transformers/all-MiniLM-L6-v2/c9745ed1d9f207416be6d2e6f8de32d1f16199bf/config_sentence_transformers.json HTTP/1.1" 200 0
+2025-09-30 09:06:53 | urllib3.connectionpool | DEBUG    | connectionpool.py:_make_request:544 | https://huggingface.co:443 "HEAD /sentence-transformers/all-MiniLM-L6-v2/resolve/main/README.md HTTP/1.1" 307 0
+2025-09-30 09:06:53 | urllib3.connectionpool | DEBUG    | connectionpool.py:_make_request:544 | https://huggingface.co:443 "HEAD /api/resolve-cache/models/sentence-transformers/all-MiniLM-L6-v2/c9745ed1d9f207416be6d2e6f8de32d1f16199bf/README.md HTTP/1.1" 200 0
+2025-09-30 09:06:54 | urllib3.connectionpool | DEBUG    | connectionpool.py:_make_request:544 | https://huggingface.co:443 "HEAD /sentence-transformers/all-MiniLM-L6-v2/resolve/main/modules.json HTTP/1.1" 307 0
+2025-09-30 09:06:54 | urllib3.connectionpool | DEBUG    | connectionpool.py:_make_request:544 | https://huggingface.co:443 "HEAD /api/resolve-cache/models/sentence-transformers/all-MiniLM-L6-v2/c9745ed1d9f207416be6d2e6f8de32d1f16199bf/modules.json HTTP/1.1" 200 0
+2025-09-30 09:06:55 | urllib3.connectionpool | DEBUG    | connectionpool.py:_make_request:544 | https://huggingface.co:443 "HEAD /sentence-transformers/all-MiniLM-L6-v2/resolve/main/sentence_bert_config.json HTTP/1.1" 307 0
+2025-09-30 09:06:56 | urllib3.connectionpool | DEBUG    | connectionpool.py:_make_request:544 | https://huggingface.co:443 "HEAD /api/resolve-cache/models/sentence-transformers/all-MiniLM-L6-v2/c9745ed1d9f207416be6d2e6f8de32d1f16199bf/sentence_bert_config.json HTTP/1.1" 200 0
+2025-09-30 09:06:56 | urllib3.connectionpool | DEBUG    | connectionpool.py:_make_request:544 | https://huggingface.co:443 "HEAD /sentence-transformers/all-MiniLM-L6-v2/resolve/main/adapter_config.json HTTP/1.1" 404 0
+2025-09-30 09:06:57 | urllib3.connectionpool | DEBUG    | connectionpool.py:_make_request:544 | https://huggingface.co:443 "HEAD /sentence-transformers/all-MiniLM-L6-v2/resolve/main/config.json HTTP/1.1" 307 0
+2025-09-30 09:06:58 | urllib3.connectionpool | DEBUG    | connectionpool.py:_make_request:544 | https://huggingface.co:443 "HEAD /api/resolve-cache/models/sentence-transformers/all-MiniLM-L6-v2/c9745ed1d9f207416be6d2e6f8de32d1f16199bf/config.json HTTP/1.1" 200 0
+2025-09-30 09:06:59 | urllib3.connectionpool | DEBUG    | connectionpool.py:_make_request:544 | https://huggingface.co:443 "HEAD /sentence-transformers/all-MiniLM-L6-v2/resolve/main/tokenizer_config.json HTTP/1.1" 307 0
+2025-09-30 09:06:59 | urllib3.connectionpool | DEBUG    | connectionpool.py:_make_request:544 | https://huggingface.co:443 "HEAD /api/resolve-cache/models/sentence-transformers/all-MiniLM-L6-v2/c9745ed1d9f207416be6d2e6f8de32d1f16199bf/tokenizer_config.json HTTP/1.1" 200 0
+2025-09-30 09:07:00 | urllib3.connectionpool | DEBUG    | connectionpool.py:_make_request:544 | https://huggingface.co:443 "GET /api/models/sentence-transformers/all-MiniLM-L6-v2/tree/main/additional_chat_templates?recursive=False&expand=False HTTP/1.1" 404 64
+2025-09-30 09:07:01 | urllib3.connectionpool | DEBUG    | connectionpool.py:_make_request:544 | https://huggingface.co:443 "HEAD /sentence-transformers/all-MiniLM-L6-v2/resolve/main/1_Pooling/config.json HTTP/1.1" 307 0
+2025-09-30 09:07:01 | urllib3.connectionpool | DEBUG    | connectionpool.py:_make_request:544 | https://huggingface.co:443 "HEAD /api/resolve-cache/models/sentence-transformers/all-MiniLM-L6-v2/c9745ed1d9f207416be6d2e6f8de32d1f16199bf/1_Pooling%2Fconfig.json HTTP/1.1" 200 0
+2025-09-30 09:07:03 | urllib3.connectionpool | DEBUG    | connectionpool.py:_make_request:544 | https://huggingface.co:443 "GET /api/models/sentence-transformers/all-MiniLM-L6-v2 HTTP/1.1" 200 6857
+2025-09-30 09:07:03 | sulphite.main | INFO     | main.py:__init__:81 | Starting Sulphite Learning Assistant v2.0
+2025-09-30 09:07:03 | sulphite.database | INFO     | database.py:__init__:67 | Database connection established: sulphite.db
+2025-09-30 09:07:03 | sulphite.database | INFO     | logging_config.py:log_database_operation:193 | DB_OPERATION: database.py:110 | Operation: CREATE_TABLES | Details: {'tables': ['sessions', 'memory']}
+2025-09-30 09:07:03 | sulphite.classification | INFO     | classification.py:__init__:89 | Classifier initialized successfully with Gemini 1.5 Flash model
+2025-09-30 09:07:03 | sulphite.chat_service | INFO     | services.py:__init__:138 | Chat service initialized successfully with Gemini 2.0 Flash model
+2025-09-30 09:07:03 | sulphite.database | INFO     | logging_config.py:log_database_operation:193 | DB_OPERATION: database.py:180 | Operation: GET_SESSION | Details: {'session_name': 'default', 'found': True}
+2025-09-30 09:07:03 | sulphite.chat_service | INFO     | services.py:start_new_session:509 | Retrieved existing session: default (ID: 1)
+2025-09-30 09:07:03 | sulphite.main | ERROR    | main.py:__init__:103 | Failed to initialize Sulphite application: 'ChatGoogleGenerativeAI' object has no attribute 'get_sentence_embedding_dimension'
+2025-09-30 09:07:03 | sulphite.startup | ERROR    | main.py:main:528 | Fatal error during application startup: 'ChatGoogleGenerativeAI' object has no attribute 'get_sentence_embedding_dimension'
+2025-09-30 09:07:03 | sulphite.database | INFO     | database.py:__del__:363 | Database connection closed

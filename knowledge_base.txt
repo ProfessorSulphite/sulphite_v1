@@ -1,0 +1,28 @@
+sub_topic: Prime Numbers and Composite Numbers
+style: simple
+A prime number is a whole number greater than 1 that has only two divisors: 1 and itself. For example, 7 is a prime number because it can only be divided by 1 and 7.
+
+---
+sub_topic: Prime Numbers and Composite Numbers
+style: detailed
+In number theory, a prime number is a natural number greater than 1 that is not a "product" of two smaller natural numbers. A natural number greater than 1 that is not prime is called a composite number. For example, 5 is prime because the only ways of writing it as a product, 1 x 5 or 5 x 1, involve 5 itself.
+
+---
+sub_topic: Prime Numbers and Composite Numbers
+style: practical
+Imagine you have 13 cookies and you want to arrange them in a rectangular grid. You can only make a 1x13 or a 13x1 grid. Because you can't make any other rectangular shape, 13 is a prime number. This is useful in cryptography for creating secure keys.
+
+---
+sub_topic: Addition and Subtraction
+style: simple
+Addition is finding the total, or sum, by combining two or more numbers. Subtraction is finding the difference between two numbers.
+
+---
+sub_topic: Addition and Subtraction
+style: detailed
+Addition and subtraction are inverse operations. Addition is the process of calculating the total of two or more numbers or amounts, known as addends. The result is the sum. Subtraction is the operation of taking the difference between two numbers, the minuend and the subtrahend.
+
+---
+sub_topic: Addition and Subtraction
+style: practical
+If you have 5 apples and someone gives you 3 more, you have 5 + 3 = 8 apples. If you then eat 2 apples, you have 8 - 2 = 6 apples left. This is how we use addition and subtraction in everyday life.
